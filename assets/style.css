@@ -7,14 +7,38 @@ body {
 }
 
 header {
-    display: inline;
     right: 20px;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 900px;
+}
+
 li {
-    display: inline;
+    padding: 5px 40px 5px 5px ;
 }
 
 .input-box {
     display: block;
 }
+
